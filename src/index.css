@@ -1,0 +1,25 @@
+:root {
+  --circle-and-text-color: #52ffa8;
+  --p-text-color: rgb(255, 255, 255);
+  --container-bg-color: #323a49;
+  --bg-color: #1f2632;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+}
