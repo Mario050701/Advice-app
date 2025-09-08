@@ -17,6 +17,7 @@
 
 h2 {
   color: var(--circle-and-text-color);
+  font-family: cursive;
 }
 
 p {
@@ -64,4 +65,24 @@ p {
   to {
     transform: rotate(360deg);
   }
+}
+
+#light {
+  background-color: var(--light-mode);
+}
+
+.light-dark-btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: black;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.light-dark-btn.dark {
+  color: yellow;
+  transform: rotate(180deg);
 }
